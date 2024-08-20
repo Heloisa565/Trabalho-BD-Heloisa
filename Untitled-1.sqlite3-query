@@ -1,0 +1,14 @@
+-- database: ./database.sqlite
+
+-- Pressione o botão ▷ no canto superior direito da janela para executar todo o arquivo.
+
+SELECT * FROM `Usuários`;
+CREATE TABLE
+'usuário' (
+'id' INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+'nome' varchar (40) NOT NULL,
+'email' varchar (40) NOT NULL,
+'senha' varchar (20) NOT NULL,
+'createdAt' datetime,
+'updateAt' datetime
+)

@@ -1,0 +1,13 @@
+-- database: ./database.sqlite
+
+-- Pressione o botão ▷ no canto superior direito da janela para executar todo o arquivo.
+
+SELECT * FROM pagamentos;
+CREATE TABLE
+'pagamento' (
+'id' INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+'nome' varchar (255) DEFAULT NULL,
+'valor' double DEFAULT NULL,
+'createdAt' datetime NOT NULL,
+'updateAt' datetime NOT NULL
+)
